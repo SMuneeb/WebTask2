@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+    display: flex;
+}
+
+#leftmain{
+    width: 40%;
+    height: 100%;
+    background-color: #1a1110;
+    position: relative;
+}
+
+#leftmain nav{
+    /* width: 100vma; */
+    height: 10%;
+    /* background-color: rgb(98, 25, 25); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 9px 0; */
+}
+
+#leftmain nav h1{
+    font-size: 35px;
+    color: #ffaa22d8;
+}
+
+#mlefttext{
+    width: 100%;
+   position: absolute;
+   transform: translate(-50% -50%);
+   top: 45%;
+   left: 40%;
+   z-index: 9999;
+}
+
+#mlefttext h2{
+    font-size: 60px;
+    color: white;
+}
+
+#mlefttext h1{
+    font-size: 80px;
+    color: white;
+}
+
+#mlefttext button{
+    background-color: #ffaa22d8;
+    padding: 20px 100px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 730;
+    
+}
+
+
+
+#rightmain{
+    width: 60%;
+    height: 100%;
+    background-image: url(assets/2F7F5C65-64AE-4A2A-8249-666CE1904EF9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#rightoverlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.471);
+}
+
+
+/* main page 2 start here  */
+
+#main2{
+    width: 100%;
+    height: 100%;
+    background-color: #1a1110;
+    position: relative;
+    display: flex;
+}
+
+#main2left{
+    width: 50%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#leftbox1{
+    width: 80%;
+    height: 80%;
+    /* background-color: #171717; */
+    background-color: #ffaa22d8;
+   
+    /* position: absolute; */
+    
+}
+
+#leftbox2{
+    width: 40%;
+    height: 80%;
+    /* background-color: rgb(151, 126, 126); */
+    background-image: url(assets/2ndPhoto.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    position: absolute;
+    /* padding-left: 60%; */
+    margin-top: 5%;
+    margin-left: 7%;
+}
+
+
+#main2right{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(248, 218, 174); */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 8% 1%;
+    padding-right: 20%;
+}
+
+#main2right h5{
+    font-size: 20px;
+    font-weight: 900;
+    padding-left: 25%;
+    /* margin-top: 10%; */
+    /* padding-top: 80%; */
+    color: whitesmoke;
+}
+
+#main2right h1{
+    font-size: 80px;
+    font-weight: 780;
+    padding-left: 0%;
+    color: whitesmoke;
+}
+
+#main2right p{
+    font-size: 20px;
+    font-weight: 540;
+    word-spacing: 2px;
+    color: whitesmoke;   
+}
+
+/* main 3 start here */
+
+#main3{
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+}
+
+#main3 nav{
+    width: 100%;
+    height: 20%;
+    background-color: #1a1110;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1% 5%;
+}
+
+#main3 nav h1{
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: -3px;
+    color: #ffaa22d8;
+    /* padding-top: %; */
+    /* font-family: 'Rubik Storm'; */
+}
+
+#main3 nav h4{
+    font-size: 20px;
+    padding-left: 15%;
+    color: whitesmoke;
+}
+
+#main3nav2{
+    width: 100%;
+    height: 10%;
+    background-color: #1a1110;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 20%;
+}
+
+#main3nav2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 550;
+}
+
+#mywork{
+    width: 100%;
+    height: 70%;
+    background-color: #1a1110;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#myworkBox1{
+    width: 30%;
+    height: 60%;
+    /* background-color: brown; */
+    background-image: url(https://i.pinimg.com/564x/c1/19/eb/c119ebe96f8f9db35b5d532e47da5f7d.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#myworkBox2{
+    width: 30%;
+    height: 60%;
+    /* background-color: brown; */
+    background-image: url(https://i.pinimg.com/564x/93/59/59/9359592190b23939378dbf62221db5e9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#myworkBox3{
+    width: 30%;
+    height: 60%;
+    /* background-color: brown; */
+    background-image: url(https://i.pinimg.com/564x/14/a1/c6/14a1c600799a8989d3ab880418cab48e.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* main4 start here  */
+
+#main4{
+    width: 100%;
+    height: 100%;
+    background-color: #1a1110;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+
+#myworkBox4{
+    width: 30%;
+    height: 40%;
+    /* background-color: brown; */
+    background-image: url(https://i.pinimg.com/564x/bf/34/1c/bf341c28a57ad1ac0f6c2d74cdd603bd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#myworkBox5{
+    width: 30%;
+    height: 40%;
+    /* background-color: brown; */
+    background-image: url(https://i.pinimg.com/564x/a2/88/6c/a2886c8cb722a5620426516cf6005105.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#myworkBox6{
+    width: 30%;
+    height: 40%;
+    /* background-color: brown; */
+    background-image: url(https://i.pinimg.com/564x/43/69/03/436903e0ba67d990fa96bba4d2124415.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
